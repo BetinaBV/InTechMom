@@ -112,3 +112,23 @@ precioConDcto = precioProducto - (precioProducto * 20 / 100);
 
 console.log("Su producto tiene un precio de "  + precioConDcto + " el descuento fue del 20%.");
 
+//9 
+
+let promedio = 0;
+let suma = 0;
+
+for (let i = 0; i < 5; i++){
+    numero = Math.floor(Math.random()*(100))+1;
+    suma = suma + numero;
+    console.log("Numero" + i + " generado: " + numero);
+}
+
+promedio = Math.floor(suma / 5);
+console.log("El promedio es: " + promedio);
+
+//10
+
+//var diametro = prompt("Ingrese perimetro");
+var diametro = 15;
+const perimetro = Math.floor(Math.PI * diametro);
+console.log("El perímetro del circulo es: " + perimetro);
